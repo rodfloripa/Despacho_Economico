@@ -34,4 +34,4 @@
 
 <p align="justify">Enquanto o script acima oferece uma excelente visão fundamental de como a otimização matemática (via <b>CVXPY</b>) governa o fluxo de energia, a operação real de um país com dimensões continentais exige ferramentas de escala industrial que equilibram economia, segurança e a incerteza climática das nossas hidrelétricas.</p>
 
-Gostaria que eu explicasse como adicionar perdas de transmissão ou fontes renováveis (como eólica e solar) a este modelo de otimização?
+
