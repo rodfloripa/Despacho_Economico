@@ -32,6 +32,16 @@
 * <p align="justify"><b>Complexidade e Custo Futuro:</b> O NEWAVE utiliza Programação Dinâmica Estocástica para considerar não apenas o custo atual, mas o valor da água armazenada para o futuro. No nosso modelo multi-período, simulamos essa visão ao otimizar o despacho de 12 meses simultaneamente.</p>
 * <p align="justify"><b>Poder de Processamento:</b> Para resolver essas equações em um sistema tão vasto, o modelo roda em <b>supercomputadores</b>, processando milhares de cenários de chuvas e demandas para garantir que o custo de geração seja minimizado ao longo de meses e anos.</p>
 
+<p align="justify"><h3>5. Diferenças entre o Código Atual e o NEWAVE</h3></p>
+
+<p align="justify">Embora o código atual apresente a estrutura lógica do planejamento anual, existem distinções fundamentais em relação à ferramenta oficial do ONS:</p>
+
+<p align="justify"><b>Determinismo vs. Estocasticidade:</b> O código atual assume que as chuvas futuras são conhecidas (determinístico). O NEWAVE é estocástico, processando milhares de cenários de afluências para garantir que a decisão de hoje seja robusta frente às incertezas climáticas.</p>
+
+<p align="justify"><b>Custo da Água:</b> No código atual, o custo da água é uma função fixa (1/x). No NEWAVE, o <b>Valor da Água (VA)</b> é calculado dinamicamente, representando o custo térmico futuro que será evitado ao economizar água no presente.</p>
+
+<p align="justify"><b>Horizonte de Planejamento:</b> Enquanto simulamos 12 meses, o NEWAVE planeja a operação para até 5 anos, gerando o <b>Custo Marginal de Operação (CMO)</b>, que serve de base para o preço da energia no Brasil (PLD).</p>
+
 ---
 
 <p align="justify"><h3>Conclusão</h3></p>
