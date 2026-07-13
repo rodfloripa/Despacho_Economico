@@ -42,15 +42,17 @@
 
 <p align="justify"><b>Horizonte de Planejamento:</b> Enquanto simulamos 12 meses, o NEWAVE planeja a operação para até 5 anos, gerando o <b>Custo Marginal de Operação (CMO)</b>, que serve de base para o preço da energia no Brasil (PLD).</p>
 
+
+
+---
+
+<p align="justify"><h3>Gráficos e Conclusão</h3></p>
+
 <p align="center">
   <img src="https://github.com/rodfloripa/Despacho_Economico/blob/main/fig1.png">
 </p>
 <p align="center">
   <img src="https://github.com/rodfloripa/Despacho_Economico/blob/main/fig2.png">
 </p>
-
----
-
-<p align="justify"><h3>Conclusão</h3></p>
 
 <p align="justify">Enquanto o script acima oferece uma excelente visão fundamental de como a otimização matemática (via CVXPY) governa o fluxo de energia, a operação real de um país com dimensões continentais exige ferramentas de escala industrial que equilibram economia, segurança e a incerteza climática das nossas hidrelétricas. A inclusão do custo não linear da água e a análise multi-período transformam o script em uma ferramenta de gestão de risco. Ele demonstra que a operação de um sistema elétrico complexo não é apenas sobre o menor custo hoje, mas sobre a <b>segurança energética</b> de longo prazo, equilibrando a economia das térmicas com a resiliência dos reservatórios.</p>
