@@ -42,6 +42,15 @@
 
 <p align="justify"><b>Horizonte de Planejamento:</b> Enquanto simulamos 12 meses, o NEWAVE planeja a operação para até 5 anos, gerando o <b>Custo Marginal de Operação (CMO)</b>, que serve de base para o preço da energia no Brasil (PLD).</p>
 
+<p align="center">
+  <img src="https://github.com/rodfloripa/Despacho_Economico/blob/main/fig1.png">
+</p>
+<p align="center">
+  <img src="https://github.com/rodfloripa/Despacho_Economico/blob/main/fig2.png">
+</p>
+<p align="center">
+  <img src="https://github.com/rodfloripa/Despacho_Economico/blob/main/fig3.png">
+</p>
 ---
 
 <p align="justify"><h3>Conclusão</h3></p>
